@@ -1,0 +1,171 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert-degraded",
+        "heading-dispatch",
+        "text-dispatch-status",
+        "text-fleet-header",
+        "stack-fleet",
+        "separator-1",
+        "heading-status",
+        "stack-status-checks",
+        "separator-2",
+        "heading-next",
+        "text-next-run"
+      ]
+    },
+    "alert-degraded": {
+      "type": "Alert",
+      "props": {
+        "title": "Status: Degraded",
+        "message": "First heartbeat run, fresh deployment. This is expected on a new instance.",
+        "type": "warning"
+      }
+    },
+    "heading-dispatch": {
+      "type": "Heading",
+      "props": {
+        "text": "Dispatch Status",
+        "level": "h2"
+      }
+    },
+    "text-dispatch-status": {
+      "type": "Text",
+      "props": {
+        "text": "No skill has ever dispatched (cron-state.json empty)."
+      }
+    },
+    "text-fleet-header": {
+      "type": "Text",
+      "props": {
+        "text": "Scheduled fleet — all show 'not yet run':"
+      }
+    },
+    "stack-fleet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-morning-brief",
+        "badge-on-chain",
+        "badge-narrative",
+        "badge-refresh-x",
+        "badge-competitor",
+        "badge-heartbeat"
+      ]
+    },
+    "badge-morning-brief": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "outline"
+      }
+    },
+    "badge-on-chain": {
+      "type": "Badge",
+      "props": {
+        "text": "on-chain-monitor",
+        "variant": "outline"
+      }
+    },
+    "badge-narrative": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "outline"
+      }
+    },
+    "badge-refresh-x": {
+      "type": "Badge",
+      "props": {
+        "text": "refresh-x",
+        "variant": "outline"
+      }
+    },
+    "badge-competitor": {
+      "type": "Badge",
+      "props": {
+        "text": "competitor-launch-radar",
+        "variant": "outline"
+      }
+    },
+    "badge-heartbeat": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "outline"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-status": {
+      "type": "Heading",
+      "props": {
+        "text": "System Status",
+        "level": "h2"
+      }
+    },
+    "stack-status-checks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-no-prs",
+        "text-no-issues",
+        "text-status-page"
+      ]
+    },
+    "text-no-prs": {
+      "type": "Text",
+      "props": {
+        "text": "No open PRs"
+      }
+    },
+    "text-no-issues": {
+      "type": "Text",
+      "props": {
+        "text": "No urgent issues, no filed issues"
+      }
+    },
+    "text-status-page": {
+      "type": "Text",
+      "props": {
+        "text": "Status page updated"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-next": {
+      "type": "Heading",
+      "props": {
+        "text": "Next Scheduled Run",
+        "level": "h2"
+      }
+    },
+    "text-next-run": {
+      "type": "Text",
+      "props": {
+        "text": "on-chain-monitor at 23:00 UTC"
+      }
+    }
+  }
+}
