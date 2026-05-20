@@ -1,0 +1,158 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-05-20"
+      },
+      "children": [
+        "focus-heading",
+        "focus-stack",
+        "sep1",
+        "yesterday-heading",
+        "yesterday-stack",
+        "sep2",
+        "watch-heading",
+        "watch-alert",
+        "sep3",
+        "running-heading",
+        "running-table"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "refresh-x @ 09:00 UTC — first public post; next slot is Friday, sets the tone"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "show-hn-draft not yet run — beta is live on mainnet, launch content isn't ready"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "on-chain-monitor never dispatched — paying subscribers invisible until workflows fire"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-1",
+        "yesterday-2"
+      ]
+    },
+    "yesterday-1": {
+      "type": "Text",
+      "props": {
+        "text": "Heartbeat ran twice (22:46, 23:09 UTC) — P0 cleared, STATUS_PAGE 🔴→🟡 WATCH"
+      }
+    },
+    "yesterday-2": {
+      "type": "Text",
+      "props": {
+        "text": "All cron skills (on-chain-monitor, refresh-x, narrative-tracker, competitor-launch-radar) still show no cron-state entries"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "On-chain identity transitioning from experimental to commercial in 2026 — Base ecosystem timing aligns with BaseHouse thesis (focus #2, #3)",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Schedule"
+        ],
+        "rows": [
+          [
+            "on-chain-monitor",
+            "every 30 min"
+          ],
+          [
+            "refresh-x",
+            "09:00 UTC"
+          ],
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ]
+        ]
+      }
+    }
+  }
+}
