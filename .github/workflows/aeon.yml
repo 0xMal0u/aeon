@@ -293,6 +293,13 @@ jobs:
 
           # Telegram: 4096 char limit, strict Markdown parsing
           if [ -n "${TELEGRAM_BOT_TOKEN:-}" ] && [ -n "${TELEGRAM_CHAT_ID:-}" ]; then
+            # Topic routing — map skill name to Telegram forum topic thread_id
+            TG_THREAD_ID=""
+            case "${SKILL_NAME:-}" in
+              heartbeat|skill-health|skill-evals|self-review|skill-repair|autoresearch) TG_THREAD_ID="8" ;;
+              refresh-x|show-hn-draft|product-hunt-launch) TG_THREAD_ID="5" ;;
+              *) TG_THREAD_ID="83" ;;
+            esac
             # Split $MSG into chunks ≤3900 chars (Telegram cap 4096, leaves room for
             # "[i/N]" suffix). Prefer paragraph (\n\n) then line (\n) boundaries,
             # hard-split only if a single paragraph/line exceeds the limit.
@@ -330,9 +337,12 @@ jobs:
             while IFS= read -r TG_CHUNK_B64; do
               [ -z "$TG_CHUNK_B64" ] && continue
               TG_MSG=$(printf '%s' "$TG_CHUNK_B64" | base64 -d)
+              TG_PAYLOAD=$(jq -n \
+                --arg chat "$TELEGRAM_CHAT_ID" --arg text "$TG_MSG" --arg thread "${TG_THREAD_ID:-}" \
+                'if $thread != "" then {chat_id:$chat,text:$text,parse_mode:"Markdown",message_thread_id:($thread|tonumber)} else {chat_id:$chat,text:$text,parse_mode:"Markdown"} end')
               TG_RESULT=$(curl -s -w "\n%{http_code}" -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
                 -H "Content-Type: application/json" \
-                -d "$(jq -n --arg chat "$TELEGRAM_CHAT_ID" --arg text "$TG_MSG" '{chat_id: $chat, text: $text, parse_mode: "Markdown"}')" 2>/dev/null) || true
+                -d "$TG_PAYLOAD" 2>/dev/null) || true
               TG_HTTP=$(echo "$TG_RESULT" | tail -1)
               TG_OK=$(echo "$TG_RESULT" | sed '$d' | jq -r '.ok // false' 2>/dev/null || echo "false")
               if [ "$TG_HTTP" = "200" ] && [ "$TG_OK" = "true" ]; then
@@ -340,7 +350,8 @@ jobs:
               else
                 curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
                   -H "Content-Type: application/json" \
-                  -d "$(jq -n --arg chat "$TELEGRAM_CHAT_ID" --arg text "$TG_MSG" '{chat_id: $chat, text: $text}')" > /dev/null 2>&1 && DELIVERED=true || true
+                  -d "$(jq -n --arg chat "$TELEGRAM_CHAT_ID" --arg text "$TG_MSG" --arg thread "${TG_THREAD_ID:-}" \
+                    'if $thread != "" then {chat_id:$chat,text:$text,message_thread_id:($thread|tonumber)} else {chat_id:$chat,text:$text} end')" > /dev/null 2>&1 && DELIVERED=true || true
               fi
               # Preserve chunk ordering in the Telegram channel
               sleep 0.3
