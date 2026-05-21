@@ -19,6 +19,13 @@
   },
   "on-chain-monitor": {
     "last_dispatch": "2026-05-21T10:55:02Z",
-    "last_status": "dispatched"
+    "last_status": "failed",
+    "last_failed": "2026-05-21T11:04:29Z",
+    "total_runs": 1,
+    "total_successes": 0,
+    "total_failures": 1,
+    "consecutive_failures": 1,
+    "success_rate": 0,
+    "last_error": "s/=.*/=SET/' 2>/dev/null || echo \\\"no matching env vars\\\"\",\"description\":\"Check for blockchain API keys in environment\"}},{\"tool_name\":\"Bash\",\"tool_use_id\":\"toolu_01KULNSKeBvN5JfsuKmePMdt\",\"tool_input"
   }
 }
