@@ -16,5 +16,9 @@
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1
+  },
+  "on-chain-monitor": {
+    "last_dispatch": "2026-05-21T10:55:02Z",
+    "last_status": "dispatched"
   }
 }
