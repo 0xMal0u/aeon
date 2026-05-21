@@ -1,0 +1,216 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-05-21"
+      },
+      "children": [
+        "focus-heading",
+        "focus-stack",
+        "sep1",
+        "yesterday-heading",
+        "yesterday-stack",
+        "sep2",
+        "running-heading",
+        "running-stack"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-name",
+        "focus-1-why"
+      ]
+    },
+    "focus-1-name": {
+      "type": "Badge",
+      "props": {
+        "text": "on-chain-monitor",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "focus-1-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: contract live, paying subscribers invisible until dispatched",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-name",
+        "focus-2-why"
+      ]
+    },
+    "focus-2-name": {
+      "type": "Badge",
+      "props": {
+        "text": "refresh-x",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "focus-2-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: first post never sent; next slot Friday, 24h window",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-name",
+        "focus-3-why"
+      ]
+    },
+    "focus-3-name": {
+      "type": "Badge",
+      "props": {
+        "text": "show-hn-draft",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "focus-3-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: beta live, launch assets zero; window narrows daily",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-item-1",
+        "yesterday-item-2"
+      ]
+    },
+    "yesterday-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat: 2 runs, P0 cleared — status moved DEGRADED → WATCH (P3 persists)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "on-chain-monitor, refresh-x, narrative-tracker, competitor-launch-radar: still no cron-state entries — never dispatched",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-item-1",
+        "running-item-2",
+        "running-item-3"
+      ]
+    },
+    "running-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "on-chain-monitor @ every :00/:30 all day",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
