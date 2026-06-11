@@ -1,13 +1,13 @@
 {
   "heartbeat": {
-    "last_status": "failed",
+    "last_status": "dispatched",
     "last_success": "2026-05-20T23:09:36Z",
     "total_runs": 62,
     "total_successes": 2,
     "total_failures": 60,
     "consecutive_failures": 60,
     "success_rate": 0.03,
-    "last_dispatch": "2026-06-11T12:29:34Z",
+    "last_dispatch": "2026-06-11T21:28:37Z",
     "last_failed": "2026-06-11T12:29:58Z",
     "last_error": "f711922\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
@@ -24,7 +24,7 @@
     "last_error": "285a572\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
   "on-chain-monitor": {
-    "last_dispatch": "2026-06-11T12:29:34Z",
+    "last_dispatch": "2026-06-11T21:28:37Z",
     "last_status": "dispatched",
     "last_failed": "2026-06-10T11:56:05Z",
     "total_runs": 63,
@@ -35,8 +35,8 @@
     "last_error": "8837099\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
   "refresh-x": {
-    "last_dispatch": "2026-06-11T12:29:34Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-06-11T21:28:37Z",
+    "last_status": "dispatched",
     "last_failed": "2026-06-11T12:29:57Z",
     "total_runs": 61,
     "total_successes": 0,
@@ -46,8 +46,8 @@
     "last_error": "e72b556\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
   "narrative-tracker": {
-    "last_dispatch": "2026-06-11T12:29:34Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-06-11T21:28:37Z",
+    "last_status": "dispatched",
     "last_failed": "2026-06-11T12:29:51Z",
     "total_runs": 8,
     "total_successes": 0,
