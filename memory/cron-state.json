@@ -26,13 +26,13 @@
   "on-chain-monitor": {
     "last_dispatch": "2026-06-18T10:52:37Z",
     "last_status": "failed",
-    "last_failed": "2026-06-25T12:14:05Z",
-    "total_runs": 178,
+    "last_failed": "2026-06-25T15:16:23Z",
+    "total_runs": 179,
     "total_successes": 0,
-    "total_failures": 178,
-    "consecutive_failures": 178,
+    "total_failures": 179,
+    "consecutive_failures": 179,
     "success_rate": 0,
-    "last_error": "0644126\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
+    "last_error": "a8d3102\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
   "refresh-x": {
     "last_dispatch": "2026-06-18T10:52:37Z",
