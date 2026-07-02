@@ -37,13 +37,13 @@
   "refresh-x": {
     "last_dispatch": "2026-06-18T10:52:37Z",
     "last_status": "failed",
-    "last_failed": "2026-07-02T19:51:05Z",
-    "total_runs": 286,
+    "last_failed": "2026-07-02T20:47:13Z",
+    "total_runs": 287,
     "total_successes": 0,
-    "total_failures": 286,
-    "consecutive_failures": 286,
+    "total_failures": 287,
+    "consecutive_failures": 287,
     "success_rate": 0,
-    "last_error": "3bcba20\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
+    "last_error": "1ca1fcd\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
   "narrative-tracker": {
     "last_dispatch": "2026-06-18T06:25:04Z",
