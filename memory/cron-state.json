@@ -58,13 +58,13 @@
   },
   "competitor-launch-radar": {
     "last_status": "failed",
-    "last_failed": "2026-07-16T12:00:27Z",
-    "total_runs": 417,
+    "last_failed": "2026-07-16T14:12:35Z",
+    "total_runs": 418,
     "total_successes": 0,
-    "total_failures": 417,
-    "consecutive_failures": 417,
+    "total_failures": 418,
+    "consecutive_failures": 418,
     "success_rate": 0,
-    "last_error": "1d91662\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"",
+    "last_error": "3f63cc9\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"",
     "last_dispatch": "2026-07-15T17:53:06Z"
   }
 }
