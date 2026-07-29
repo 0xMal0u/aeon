@@ -37,13 +37,13 @@
   "refresh-x": {
     "last_dispatch": "2026-07-28T01:08:03Z",
     "last_status": "failed",
-    "last_failed": "2026-07-29T10:06:35Z",
-    "total_runs": 746,
+    "last_failed": "2026-07-29T11:50:36Z",
+    "total_runs": 747,
     "total_successes": 0,
-    "total_failures": 746,
-    "consecutive_failures": 746,
+    "total_failures": 747,
+    "consecutive_failures": 747,
     "success_rate": 0,
-    "last_error": "Error: claude native binary not installed.  Either postinstall did not run (--ignore-scripts, some pnpm configs) or the platform-native optional dependency was not downloaded (--omit=optional).  Run t"
+    "last_error": "equests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"mode"
   },
   "narrative-tracker": {
     "last_dispatch": "2026-07-28T01:08:03Z",
