@@ -14,13 +14,13 @@
   "morning-brief": {
     "last_status": "failed",
     "last_success": "2026-05-21T08:31:34Z",
-    "total_runs": 789,
+    "total_runs": 790,
     "total_successes": 2,
-    "total_failures": 787,
-    "consecutive_failures": 787,
+    "total_failures": 788,
+    "consecutive_failures": 788,
     "success_rate": 0,
     "last_dispatch": "2026-08-11T11:13:36Z",
-    "last_failed": "2026-08-12T11:31:36Z",
+    "last_failed": "2026-08-12T12:26:12Z",
     "last_error": "equests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"mode"
   },
   "on-chain-monitor": {
