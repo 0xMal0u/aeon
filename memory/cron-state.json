@@ -26,11 +26,11 @@
   "on-chain-monitor": {
     "last_dispatch": "2026-08-11T11:13:36Z",
     "last_status": "failed",
-    "last_failed": "2026-08-13T04:29:16Z",
-    "total_runs": 1016,
+    "last_failed": "2026-08-13T05:59:08Z",
+    "total_runs": 1017,
     "total_successes": 0,
-    "total_failures": 1016,
-    "consecutive_failures": 1016,
+    "total_failures": 1017,
+    "consecutive_failures": 1017,
     "success_rate": 0,
     "last_error": "equests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"mode"
   },
