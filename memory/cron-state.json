@@ -58,11 +58,11 @@
   },
   "competitor-launch-radar": {
     "last_status": "failed",
-    "last_failed": "2026-08-26T14:10:40Z",
-    "total_runs": 1668,
+    "last_failed": "2026-08-26T15:51:49Z",
+    "total_runs": 1669,
     "total_successes": 0,
-    "total_failures": 1668,
-    "consecutive_failures": 1668,
+    "total_failures": 1669,
+    "consecutive_failures": 1669,
     "success_rate": 0,
     "last_error": "on\":\"sdk_opt_in_required\",\"subagent_stats\":{\"spawned\":0,\"requested\":{\"background\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,",
     "last_dispatch": "2026-08-26T12:17:17Z"
