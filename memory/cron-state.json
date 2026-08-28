@@ -48,11 +48,11 @@
   "narrative-tracker": {
     "last_dispatch": "2026-08-26T12:17:17Z",
     "last_status": "failed",
-    "last_failed": "2026-08-28T12:39:27Z",
-    "total_runs": 1617,
+    "last_failed": "2026-08-28T22:37:48Z",
+    "total_runs": 1619,
     "total_successes": 0,
-    "total_failures": 1617,
-    "consecutive_failures": 1617,
+    "total_failures": 1619,
+    "consecutive_failures": 1619,
     "success_rate": 0,
     "last_error": "agent_stats\":{\"spawned\":0,\"requested\":{\"background\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,"
   },
