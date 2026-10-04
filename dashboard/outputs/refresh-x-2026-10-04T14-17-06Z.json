@@ -1,0 +1,23 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "refresh-x"
+      },
+      "children": [
+        "alert-no-api-key"
+      ]
+    },
+    "alert-no-api-key": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "REFRESH_X_NO_API_KEY",
+        "message": "Set XAI_API_KEY in workflow secrets to enable tweet fetching for @basehome_xyz"
+      }
+    }
+  }
+}
