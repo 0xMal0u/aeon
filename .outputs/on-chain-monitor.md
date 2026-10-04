@@ -1,15 +1,12 @@
 ## Summary
 
-**Watch:** BaseHouse Subscriptions — `0xeE2E5506c6194d02e86767d3e88bE786D39f9463` on Base
+**on-chain-monitor — run 3 complete**
 
-**Scan window:** blocks 52,167,093 → 52,174,104 (7,011 blocks, ~58 min)
+- **Watch:** BaseHouse Subscriptions (`0xeE2E5506...` on Base)
+- **Blocks scanned:** 52,174,104 → 52,179,873 (5,769 blocks, ~3.2h)
+- **Source:** publicnode.com Base RPC (Etherscan v2 requires paid plan for Base; Alchemy key not set)
+- **Events found:** 0
+- **Status:** `ON_CHAIN_OK` — no notify sent
+- **State updated:** `last_block` advanced to 52,179,873; `last_run` set to 2026-10-04T21:26:48Z
 
-**Result:** `ON_CHAIN_OK` — 0 raw events, 0 kept, 0 dropped. No new USDC subscription events. Contract has been dormant since 2026-06-12 (last known interaction).
-
-**No notification sent** — zero events, silence is correct per skill spec.
-
-**Sources:** `base-public-rpc=ok` (mainnet.base.org, chunked 2k-block requests) | `alchemy=skipped` (no key) | `etherscan/basescan=skipped` (no key / 403) | `coingecko=skipped` (no events to price)
-
-**Files updated:**
-- `memory/on-chain-state.json` — `last_block` advanced to 52,174,104
-- `memory/logs/2026-10-04.md` — appended run 2 entry
+The subscription contract has been dormant since 2026-06-12. The two historical subscriptions (5 USDC Builder plan and 15 USDC Pro plan from the same address on 2026-06-11) remain the only ones on record.
