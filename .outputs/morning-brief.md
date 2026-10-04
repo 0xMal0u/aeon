@@ -1,15 +1,16 @@
-*Morning Brief — 2026-05-21*
+*Morning Brief — 2026-10-04*
 
 *Focus today*
-1. on-chain-monitor — why now: contract live, paying subscribers invisible until dispatched
-2. refresh-x — why now: first post never sent; next slot Friday, 24h window
-3. show-hn-draft — why now: beta live, launch assets zero; window narrows daily
+1. Fix skill infrastructure — all 6 skills at 0% success for 4+ months; no posts, no data
+2. Ship first refresh-x post — beta is live, account is silent; gap compounds daily
+3. Run show-hn-draft — Q3 hiring surge signals the market is ready; window is now
 
 *Since yesterday*
-- heartbeat: 2 runs, P0 cleared — status moved DEGRADED → WATCH (P3 persists)
-- on-chain-monitor, refresh-x, narrative-tracker, competitor-launch-radar: still no cron-state entries — never dispatched
+- No log from 2026-10-03; no activity captured yesterday
+
+*Watch*
+- CryptoJobsList Q3 report: crypto job postings up 220%+ (382→1,241) in Q3 — hot market validates BaseHouse timing; first mover window is closing
 
 *Running today*
-- on-chain-monitor @ every :00/:30 all day
+- on-chain-monitor @ every 30 min UTC
 - heartbeat @ 08:00, 14:00, 20:00 UTC
-- narrative-tracker @ 13:30 UTC

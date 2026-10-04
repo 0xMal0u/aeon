@@ -1,0 +1,182 @@
+{
+  "root": "card-morning-brief",
+  "state": {},
+  "elements": {
+    "card-morning-brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-10-04"
+      },
+      "children": [
+        "heading-focus",
+        "stack-focus-items",
+        "separator-1",
+        "stack-yesterday",
+        "separator-2",
+        "stack-watch",
+        "separator-3",
+        "stack-running"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-focus-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Fix skill infrastructure — all 6 skills at 0% success for 4+ months; no posts, no data"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Ship first refresh-x post — beta is live, account is silent; gap compounds daily"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Run show-hn-draft — Q3 hiring surge signals the market is ready; window is now"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-yesterday",
+        "alert-yesterday"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert-yesterday": {
+      "type": "Alert",
+      "props": {
+        "message": "No log from 2026-10-03; no activity captured yesterday",
+        "type": "info"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "stat-crypto",
+        "text-watch-detail"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stat-crypto": {
+      "type": "Stat",
+      "props": {
+        "label": "Crypto job postings (CryptoJobsList Q3)",
+        "value": "1,241",
+        "delta": "+220%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-watch-detail": {
+      "type": "Text",
+      "props": {
+        "text": "From 382 — hot market validates BaseHouse timing; first mover window is closing"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-running",
+        "task-1",
+        "task-2"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "task-1": {
+      "type": "Text",
+      "props": {
+        "text": "- on-chain-monitor @ every 30 min UTC"
+      },
+      "children": []
+    },
+    "task-2": {
+      "type": "Text",
+      "props": {
+        "text": "- heartbeat @ 08:00, 14:00, 20:00 UTC"
+      },
+      "children": []
+    }
+  }
+}
