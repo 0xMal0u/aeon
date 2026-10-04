@@ -1,10 +1,1 @@
-## Summary
-
-**Heartbeat complete — HEARTBEAT_OK · STATUS_PAGE=WATCH**
-
-- **P0:** Clear. Heartbeat last succeeded at 22:48 UTC today (well within 36h threshold). No failed/stuck/consecutive-failure conditions.
-- **P1:** No open PRs. Issues are disabled on this repo.
-- **P2:** Nothing flagged in MEMORY.md.
-- **P3:** Five enabled scheduled skills still have no cron-state entries (morning-brief, on-chain-monitor, narrative-tracker, refresh-x, competitor-launch-radar). This was already logged in today's 22:46 UTC run — notification suppressed by 48h dedup rule.
-
-**Status page** updated to `docs/status.md` → overall **🟡 WATCH** (downgraded from 🔴 DEGRADED now that heartbeat has a successful run recorded). Log entry appended to `memory/logs/2026-05-20.md`.
+🔴 FAILED (P0 — all skills): heartbeat (1968 consecutive failures, last success 2026-05-20), morning-brief (1669 failures), on-chain-monitor (1994 failures), refresh-x (2010 failures), narrative-tracker (1902 failures), competitor-launch-radar (1967 failures). All share the same error signature — likely an agent quota/refusal issue affecting the entire fleet. Heartbeat self-check: last success was 135+ days ago (threshold: 36h). No stalled PRs, no urgent issues.

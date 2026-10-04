@@ -1,0 +1,177 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat",
+        "description": "🔴 FAILED (P0 — all skills)"
+      },
+      "children": [
+        "alert_critical",
+        "sep1",
+        "health_stat",
+        "sep2",
+        "failures_table",
+        "sep3",
+        "error_section",
+        "sep4",
+        "status_checks"
+      ]
+    },
+    "alert_critical": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "P0: Fleet-wide skill failure",
+        "message": "Agent quota/refusal issue affecting entire fleet — same error signature across all 6 core skills"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "health_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Days Since Last Heartbeat Success",
+        "value": "135+",
+        "delta": "overdue (threshold: 36h)",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "failures_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Consecutive Failures",
+          "Last Success"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "1968",
+            "2026-05-20"
+          ],
+          [
+            "morning-brief",
+            "1669",
+            "—"
+          ],
+          [
+            "on-chain-monitor",
+            "1994",
+            "—"
+          ],
+          [
+            "refresh-x",
+            "2010",
+            "—"
+          ],
+          [
+            "narrative-tracker",
+            "1902",
+            "—"
+          ],
+          [
+            "competitor-launch-radar",
+            "1967",
+            "—"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "error_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "error_heading",
+        "error_text"
+      ]
+    },
+    "error_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Error Signature",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "error_text": {
+      "type": "Text",
+      "props": {
+        "text": "All 6 skills share the same error signature — indicates agent quota or refusal issue affecting entire fleet rather than individual skill failures",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "status_checks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_heading",
+        "check_prs",
+        "check_issues"
+      ]
+    },
+    "status_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Other Status",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "check_prs": {
+      "type": "Badge",
+      "props": {
+        "text": "No stalled PRs",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "check_issues": {
+      "type": "Badge",
+      "props": {
+        "text": "No urgent issues",
+        "variant": "secondary"
+      },
+      "children": []
+    }
+  }
+}
