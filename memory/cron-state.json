@@ -1,31 +1,31 @@
 {
   "heartbeat": {
-    "last_status": "failed",
+    "last_status": "dispatched",
     "last_success": "2026-05-20T23:09:36Z",
     "total_runs": 1970,
     "total_successes": 2,
     "total_failures": 1968,
     "consecutive_failures": 1968,
     "success_rate": 0,
-    "last_dispatch": "2026-08-26T12:17:17Z",
+    "last_dispatch": "2026-10-04T14:15:35Z",
     "last_failed": "2026-10-04T08:26:15Z",
     "last_error": "awned\":0,\"requested\":{\"background\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refu"
   },
   "morning-brief": {
-    "last_status": "failed",
+    "last_status": "dispatched",
     "last_success": "2026-05-21T08:31:34Z",
     "total_runs": 1671,
     "total_successes": 2,
     "total_failures": 1669,
     "consecutive_failures": 1669,
     "success_rate": 0,
-    "last_dispatch": "2026-08-26T12:17:17Z",
+    "last_dispatch": "2026-10-04T14:15:35Z",
     "last_failed": "2026-10-04T08:26:00Z",
     "last_error": "awned\":0,\"requested\":{\"background\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refu"
   },
   "on-chain-monitor": {
-    "last_dispatch": "2026-08-26T12:17:17Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-10-04T14:15:35Z",
+    "last_status": "dispatched",
     "last_failed": "2026-10-04T08:25:59Z",
     "total_runs": 1994,
     "total_successes": 0,
@@ -35,8 +35,8 @@
     "last_error": "awned\":0,\"requested\":{\"background\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refu"
   },
   "refresh-x": {
-    "last_dispatch": "2026-08-26T12:17:17Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-10-04T14:15:35Z",
+    "last_status": "dispatched",
     "last_failed": "2026-10-04T08:26:06Z",
     "total_runs": 2010,
     "total_successes": 0,
@@ -46,8 +46,8 @@
     "last_error": "awned\":0,\"requested\":{\"background\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refu"
   },
   "narrative-tracker": {
-    "last_dispatch": "2026-08-26T12:17:17Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-10-04T14:15:35Z",
+    "last_status": "dispatched",
     "last_failed": "2026-10-04T08:26:06Z",
     "total_runs": 1902,
     "total_successes": 0,
@@ -57,7 +57,7 @@
     "last_error": "awned\":0,\"requested\":{\"background\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refu"
   },
   "competitor-launch-radar": {
-    "last_status": "failed",
+    "last_status": "dispatched",
     "last_failed": "2026-10-04T08:26:10Z",
     "total_runs": 1967,
     "total_successes": 0,
@@ -65,6 +65,6 @@
     "consecutive_failures": 1967,
     "success_rate": 0,
     "last_error": "awned\":0,\"requested\":{\"background\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refu",
-    "last_dispatch": "2026-08-26T12:17:17Z"
+    "last_dispatch": "2026-10-04T14:15:35Z"
   }
 }
