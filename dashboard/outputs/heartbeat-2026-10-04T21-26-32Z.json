@@ -1,0 +1,24 @@
+{
+  "root": "card_heartbeat",
+  "state": {},
+  "elements": {
+    "card_heartbeat": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert_watch"
+      ]
+    },
+    "alert_watch": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🔵 WATCH: on-chain-monitor",
+        "message": "Last success was 18:14 UTC (~1h46m ago), exceeding 2× its 30-min schedule interval.\n\ncron-state.json shows no dispatch recorded since 18:11 UTC.\n\nContract monitoring may have missed windows.\n\nManual check or re-dispatch recommended."
+      },
+      "children": []
+    }
+  }
+}

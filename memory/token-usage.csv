@@ -5,3 +5,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-05-21,morning-brief,claude-sonnet-4-6,9,5429,227635,24108
 2026-10-04,on-chain-monitor,claude-sonnet-4-6,24,13918,785386,34017
 2026-10-04,on-chain-monitor,claude-sonnet-4-6,21,7518,634433,27284
+2026-10-04,heartbeat,claude-sonnet-4-6,9,10409,291011,35488
