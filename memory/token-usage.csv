@@ -3,3 +3,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-05-20,heartbeat,claude-sonnet-4-6,7150,7634,412732,27249
 2026-05-20,morning-brief,claude-sonnet-4-6,9,3914,223066,22415
 2026-05-21,morning-brief,claude-sonnet-4-6,9,5429,227635,24108
+2026-10-04,competitor-launch-radar,claude-sonnet-4-6,9,3029,257916,19058
