@@ -1,0 +1,8 @@
+watches:
+  - label: BaseHouse Subscriptions
+    address: "0xeE2E5506c6194d02e86767d3e88bE786D39f9463"
+    chain: base
+    type: contract
+    threshold_usd: 1       # catch all plan tiers: $5/mo, $15/mo, $49/yr, $149/yr
+    token: USDC
+    event: subscription
