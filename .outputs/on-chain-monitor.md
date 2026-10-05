@@ -1,16 +1,17 @@
-State and log updated. No notification sent — zero events is the correct end-state for a clean run.
+Done. Here is the full run report:
 
 ## Summary
 
-**What happened:** Ran `on-chain-monitor` for the BaseHouse Subscriptions contract (`0xeE2E5506...`) on Base.
+**Watch:** BaseHouse Subscriptions — `0xeE2E5506c6194d02e86767d3e88bE786D39f9463` (Base mainnet)
 
-- **Blocks scanned:** 52179873 → 52184601 (4,728 blocks, ~2.6 hours since last run at 21:26 UTC yesterday)
-- **Method:** Public Base RPC (`mainnet.base.org`) via 3 batched `eth_getLogs` calls (2,000-block limit per call). No API keys available; Etherscan v2 and Basescan both returned 403/402.
-- **Events found:** 0 — no new subscription activity on the contract
-- **End-state:** `ON_CHAIN_OK` — no notification sent (correct per skill rules)
+**Block range scanned:** 52,184,601 → 52,194,282 (9,681 blocks, ~5.4h)
 
-**Files modified:**
-- `memory/on-chain-state.json` — `last_block` advanced to 52184601, `last_run` updated
-- `memory/logs/2026-10-05.md` — created with run details
+**Sources:** `blockscout=ok` (fetched full contract log history), `public-rpc=ok` (mainnet.base.org, confirmed current block)
 
-No paying subscribers joined during this window.
+**Result:** 0 new subscription events in the scan window. The contract has 9 all-time subscription events, all from ~June 2026 — already captured in previous runs and aged out of the 7-day dedup window.
+
+**End-state:** `ON_CHAIN_OK (n_watches=1, n_raw=0, n_dropped=0)` — no notification sent.
+
+**Files updated:**
+- `memory/on-chain-state.json` — `last_block` advanced to 52,194,282, `last_run` = 2026-10-05T05:25:49Z
+- `memory/logs/2026-10-05.md` — run appended
