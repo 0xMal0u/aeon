@@ -24,8 +24,8 @@
     "last_error": "awned\":0,\"requested\":{\"background\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refu"
   },
   "on-chain-monitor": {
-    "last_dispatch": "2026-10-05T05:23:24Z",
-    "last_status": "success",
+    "last_dispatch": "2026-10-05T12:25:36Z",
+    "last_status": "dispatched",
     "last_failed": "2026-10-04T08:25:59Z",
     "total_runs": 1999,
     "total_successes": 5,
