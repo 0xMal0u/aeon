@@ -1,12 +1,16 @@
+State and log updated. No notification sent — zero events is the correct end-state for a clean run.
+
 ## Summary
 
-**on-chain-monitor — run 3 complete**
+**What happened:** Ran `on-chain-monitor` for the BaseHouse Subscriptions contract (`0xeE2E5506...`) on Base.
 
-- **Watch:** BaseHouse Subscriptions (`0xeE2E5506...` on Base)
-- **Blocks scanned:** 52,174,104 → 52,179,873 (5,769 blocks, ~3.2h)
-- **Source:** publicnode.com Base RPC (Etherscan v2 requires paid plan for Base; Alchemy key not set)
-- **Events found:** 0
-- **Status:** `ON_CHAIN_OK` — no notify sent
-- **State updated:** `last_block` advanced to 52,179,873; `last_run` set to 2026-10-04T21:26:48Z
+- **Blocks scanned:** 52179873 → 52184601 (4,728 blocks, ~2.6 hours since last run at 21:26 UTC yesterday)
+- **Method:** Public Base RPC (`mainnet.base.org`) via 3 batched `eth_getLogs` calls (2,000-block limit per call). No API keys available; Etherscan v2 and Basescan both returned 403/402.
+- **Events found:** 0 — no new subscription activity on the contract
+- **End-state:** `ON_CHAIN_OK` — no notification sent (correct per skill rules)
 
-The subscription contract has been dormant since 2026-06-12. The two historical subscriptions (5 USDC Builder plan and 15 USDC Pro plan from the same address on 2026-06-11) remain the only ones on record.
+**Files modified:**
+- `memory/on-chain-state.json` — `last_block` advanced to 52184601, `last_run` updated
+- `memory/logs/2026-10-05.md` — created with run details
+
+No paying subscribers joined during this window.
