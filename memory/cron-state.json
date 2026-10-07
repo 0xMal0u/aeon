@@ -1,13 +1,13 @@
 {
   "heartbeat": {
-    "last_status": "failed",
+    "last_status": "dispatched",
     "last_success": "2026-10-04T21:26:53Z",
     "total_runs": 1977,
     "total_successes": 4,
     "total_failures": 1973,
     "consecutive_failures": 5,
     "success_rate": 0,
-    "last_dispatch": "2026-10-07T02:28:41Z",
+    "last_dispatch": "2026-10-07T16:23:16Z",
     "last_failed": "2026-10-07T09:07:16Z",
     "last_error": "ed\":{\"background\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limi"
   },
@@ -24,8 +24,8 @@
     "last_error": "awned\":0,\"requested\":{\"background\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refu"
   },
   "on-chain-monitor": {
-    "last_dispatch": "2026-10-07T02:28:41Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-10-07T16:23:16Z",
+    "last_status": "dispatched",
     "last_failed": "2026-10-07T09:07:03Z",
     "total_runs": 2006,
     "total_successes": 5,
@@ -36,8 +36,8 @@
     "last_success": "2026-10-05T05:26:18Z"
   },
   "refresh-x": {
-    "last_dispatch": "2026-10-04T14:15:35Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-10-07T16:23:16Z",
+    "last_status": "dispatched",
     "last_failed": "2026-10-07T09:07:12Z",
     "total_runs": 2012,
     "total_successes": 1,
@@ -48,8 +48,8 @@
     "last_success": "2026-10-04T14:17:19Z"
   },
   "narrative-tracker": {
-    "last_dispatch": "2026-10-07T02:28:41Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-10-07T16:23:16Z",
+    "last_status": "dispatched",
     "last_failed": "2026-10-07T09:07:04Z",
     "total_runs": 1907,
     "total_successes": 1,
